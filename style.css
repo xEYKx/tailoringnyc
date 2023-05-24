@@ -60,6 +60,20 @@ body{
     width: 100%;
 }
 
+#signup{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid red;
+    background: red;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+        
+}
+
 .content button{
     text-transform: capitalize;
 }
@@ -83,9 +97,9 @@ body{
     line-height: 25px;
 }
 
-button{
+.content button{
     width: 200px;
-    padding: 15px 0;
+    padding: 15px;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
@@ -96,10 +110,11 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
-span{
-    background: red;
+.content span{
+    background: #fff;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -110,15 +125,14 @@ span{
     transition: 0.5s;
 }
 
-button:hover span{
+.content button:hover span{
     width: 100%;
 }
 
-button:hover{
+.content button:hover {
     border: none;
+    color: red;
 }
-
-
 
 /* bottom part of the page  */
 
