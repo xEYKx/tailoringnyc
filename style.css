@@ -6,6 +6,8 @@
     color: #fff;
 }
 
+
+
 body{
     background: black;
     text-transform: uppercase;   
@@ -144,9 +146,7 @@ body{
     color: white;
 }
 
-/* h1{
-    
-} */
+
 
 .center {
     font-size: 1em;;
@@ -171,6 +171,30 @@ body{
     padding: 0 10%;
 }
 
+/* start form  */
+
+label{
+    display: block;
+    font-size: 1.5em;
+    border-radius: 10%;
+}
+input[type="text"], input[type="email"],
+input[type="tel"],input[type="submit"] {
+    color: green; 
+}
+
+.myForm{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+
+#myForm input, textarea{
+    width: auto;
+    padding: 10px;
+} 
+
+/* end form */
 
 
 
