@@ -31,6 +31,7 @@ body{
     justify-content: space-between;
 }
 
+
 .logo{
     width: auto;
     cursor: pointer;
@@ -57,7 +58,7 @@ body{
     left: 0;
     bottom: -5px;
     transition: 1s;
-
+    
 }
 
 .navbar ul li:hover::after{
@@ -75,7 +76,7 @@ body{
     cursor: pointer;
     text-transform: uppercase;
     
-        
+    
 }
 
 .content button{
@@ -90,8 +91,28 @@ body{
     top: 30%;
     text-align: center;
     color: #fff;
-    margin-top: 0 auto;
+    margin: 0 auto;
+    border: solid red; /* box */
+    
 }
+
+.center {
+    font-size: 1em;;
+    color:white;
+    text-transform: uppercase; 
+    text-align: center;
+    line-height: 3em;
+    margin: 5% ;
+    border: solid purple; /* box */
+    
+}
+
+.center a{
+    font-size: 1em;;
+    text-transform: capitalize; 
+    
+}
+
 
 .content h1{
     font-size: 50px;
@@ -118,6 +139,7 @@ body{
     overflow: hidden;
     z-index: 1;
 }
+
 
 .content span{
     /* background: #fff; */
@@ -148,20 +170,6 @@ body{
 
 
 
-.center {
-    font-size: 1em;;
-    color:white;
-    text-transform: uppercase; 
-    text-align: center;
-    line-height: 3em;
-    margin: 5% auto;
-}
-
-.center a{
-    font-size: 1em;;
-    text-transform: capitalize; 
-    
-}
 
 
 .container{
@@ -178,9 +186,12 @@ label{
     font-size: 1.5em;
     border-radius: 10%;
 }
-input[type="text"], input[type="email"],
-input[type="tel"],input[type="submit"] {
-    color: green; 
+input[type="text"]
+ {
+    color: green;
+    width: auto;
+    padding: 10px;
+     
 }
 
 .myForm{
@@ -192,6 +203,8 @@ input[type="tel"],input[type="submit"] {
 #myForm input, textarea{
     width: auto;
     padding: 10px;
+    background-color: #000;
+    
 } 
 
 /* end form */
