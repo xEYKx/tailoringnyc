@@ -1,6 +1,6 @@
 // ***start***  form
 
-const url = 'https://script.google.com********';
+const url = 'https://script.google.com/macros/s/AKfycbwuH_f363Y9REpe8JR5UnCmw4SNiY2rjkGFxktU5c2WfmhgwM0Yettg1DHNKEBkalyt/exec';
 const myForm = document.querySelector('#myForm');
 const fName = document.querySelector('#fname');
 const lName = document.querySelector('#lname');
@@ -9,8 +9,8 @@ const pNumber = document.querySelector('#phone');
 
 fName.value = "Fulan";
 lName.value = "eFulan";
-eMail.value = "Fulan@me.com"
-pNumber.value = '212-555-5555'
+eMail.value = "Fulan@tests.com";
+pNumber.value = '212-555-5555';
 
 
 myForm.addEventListener('submit', submitter);
