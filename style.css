@@ -19,8 +19,8 @@ body{
     /* height: 20vh; */
     /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/images/background_image.jg); */
     /* background-size: cover; */
-    background-position: center;
-    padding-bottom: 25%;
+    /* background-position: center; */
+    /* padding-bottom: 10%; */
     /* border: solid green 2px; */
     
 }
@@ -127,48 +127,15 @@ body{
     font-size: 50px;
 }
 
-.center {
-    font-size: 1.25em;;
-    color:white;
-    text-transform: uppercase; 
-    text-align: center;
-    line-height: 2em;
-    margin: 2% ;
-    /* border: solid purple; box */
-    
-}
-
-.center a{
-    font-size: 1em;
-    text-transform: capitalize; 
-}
-
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
 
-.content button{
-    width: 200px;
-    padding: 15px;
-    text-align: center;
-    margin: 90px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid red;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    z-index: 0; /*was 1 */
-}
-
-
 .content span{
     /* background: #fff; */
-    height: 200%;
+    height: 100%;
     width: 100%;
     border-radius: 100px;
     position: absolute;
@@ -177,6 +144,22 @@ body{
     z-index: 0;
     transition: 0.5s;
     
+}
+
+.content button{
+    width: 200px;
+    padding: 17px;
+    margin-top: 17%;
+    /* margin: 90px 10px; */
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .content button:hover span{
@@ -194,9 +177,6 @@ body{
 }
 
 
-
-
-
 .container{
     margin: 0 auto;
     width: 80%;
@@ -204,12 +184,30 @@ body{
     padding: 0 10%;
 }
 
+.center {
+    font-size: 1.25em;;
+    color:white;
+    text-transform: uppercase; 
+    text-align: center;
+    line-height: 3em;
+    margin: 10% ;
+    /* border: solid purple; */
+    
+}
+
+.center a{
+    font-size: 1em;
+    text-transform: capitalize; 
+}
+
+
 /* start form  */
 
 label{
     display: block;
     font-size: 1.5em;
     border-radius: 10%;
+    border: 1px cornflowerblue 
 }
 input[type="text"]
  {
@@ -315,7 +313,9 @@ input[type="text"]
 
 /* --------------------------------------------------------------------- */
 
-@media (max-width: 952px) {
+
+@media (max-width: 858px) and (max-width: 952px) {
+
     .logo{
         /* font-size: 30px; */
         /* padding-left: 50px; */
@@ -326,15 +326,13 @@ input[type="text"]
         font-size: 16px;
     }
 
-}
 
-@media (max-width: 858px) {
     .checkbtn{
         font-size: 30px;
         display: block; 
         margin-top: -auto;
-
     }
+
     ul{
         position: fixed;
         width: 100%;
@@ -353,16 +351,20 @@ input[type="text"]
         margin:  50px 0;
         line-height: 30px;
     }
+
     nav ul li a{
         font-size: 20px;
     }
+
     .navbar a:hover,.navbar a.active{
         background: none;
         /* color: red; */
     }
+
     #check:checked ~ ul{
         left: 0;
     }
+
     .navbar ul li::after{
         background-color: red;
         position: absolute;
@@ -376,7 +378,26 @@ input[type="text"]
     }
 
     .content h1{
-        font-size: 20px;
+        font-size: 33px;
     }
 
+    .content button{
+        width: 200px;
+        padding: 17px;
+        margin-top: 25%;
+        /* margin: 90px 10px; */
+        text-align: center;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid red;
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+    .center {
+        display: none;
+    }
 }

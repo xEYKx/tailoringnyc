@@ -58,11 +58,11 @@
 
 .home .home-text p span.text-in{
 	display: block;
-	animation: textIn .75s ease;
+	animation: textIn 1s ease;
 }
 
 .home .home-text p span.text-out{
-	animation: textOut .75s ease;
+	animation: textOut .5s ease;
 }
 
 @keyframes textIn{
@@ -70,15 +70,15 @@
 		transform: translateY(100%);
 	}
 	100%{
-		transform: translateY(-1%);
+		transform: translateY(10%);
 	}
 }
 @keyframes textOut{
 	0%{
-		transform: translateY(-1%);
+		transform: translateY(10%);
 	}
 	100%{
-		transform: translateY(-100%);
+		transform: translateY(100%);
 
 	}
 }
@@ -86,12 +86,7 @@
 
 /* --------------------------------------------------------------------- */
 
-@media (max-width: 952px) {
-    
-
-}
-
-@media (max-width: 858px) {
+@media (max-width: 858px) and (max-width: 952px)  {
 
 .home .home-text p span{
 	font-size: 20px;
