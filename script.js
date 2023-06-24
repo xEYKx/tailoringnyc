@@ -1,16 +1,17 @@
 // ***start***  form
 
-const url = 'https://script.google.com/macros/s/AKfycbwuH_f363Y9REpe8JR5UnCmw4SNiY2rjkGFxktU5c2WfmhgwM0Yettg1DHNKEBkalyt/exec';
+const url = 'https://script.google.com/macros/s/AKfycbyKJl1BUalVyQt6arZBgvEvpoZ_e8O6Nm3ikOV2jmF8QoxkveGaFOAA-tUiY2VjfmVD/exec';
 const myForm = document.querySelector('#myForm');
 const fName = document.querySelector('#fname');
 const lName = document.querySelector('#lname');
 const eMail = document.querySelector('#email');
 const pNumber = document.querySelector('#phone');
 
-// fName.value = "Fulan";
-// lName.value = "eFulan";
-// eMail.value = "Fulan@tests.com";
-// pNumber.value = '212-555-5555';
+fName.value = "Fulan";
+lName.value = "eFulan";
+eMail.value = "leemajiors+0@gmail.com";
+pNumber.value = '212-555-5555';
+// dateTime.value = new Date().toLocaleString();
 
 
 myForm.addEventListener('submit', submitter);
@@ -47,7 +48,8 @@ function submitter(e){
             firstName:fName.value,
             lastName:lName.value,
             phoneNumber:pNumber.value,
-            email:eMail.value, 
+            email:eMail.value,
+            dateTime:new Date().toLocaleString() 
 
         }
         addSendMail(myObj);
