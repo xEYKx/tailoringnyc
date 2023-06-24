@@ -193,7 +193,7 @@ body{
 
 label{
     display: block;
-    font-size: 1.5em;
+    font-size: 1em;
     width: auto;
     
 }
@@ -203,7 +203,9 @@ input[type="text"],
     color: black;
     width: auto;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
+    /* background-color: #333; */
+    /* background-color: ghostwhite; */
      
 }
 
