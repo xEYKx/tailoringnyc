@@ -7,10 +7,10 @@ const lName = document.querySelector('#lname');
 const eMail = document.querySelector('#email');
 const pNumber = document.querySelector('#phone');
 
-fName.value = "Fulan";
-lName.value = "eFulan";
-eMail.value = "Fulan@tests.com";
-pNumber.value = '212-555-5555';
+// fName.value = "Fulan";
+// lName.value = "eFulan";
+// eMail.value = "Fulan@tests.com";
+// pNumber.value = '212-555-5555';
 
 
 myForm.addEventListener('submit', submitter);

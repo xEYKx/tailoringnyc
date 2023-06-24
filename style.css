@@ -172,18 +172,6 @@ body{
 }
 
 
-.container h1,h2{
-    color: white;
-}
-
-
-.container{
-    margin: 0 auto;
-    width: 80%;
-    height: 100vh;
-    padding: 0 10%;
-}
-
 .center {
     font-size: 1.25em;;
     color:white;
@@ -206,43 +194,40 @@ body{
 label{
     display: block;
     font-size: 1.5em;
-    border-radius: 10%;
-    border: 1px cornflowerblue 
+    width: auto;
+    
 }
-input[type="text"]
+input[type="text"],
+     [type="tel"]
  {
-    color: green;
+    color: black;
     width: auto;
     padding: 10px;
+    font-size: 15px;
      
 }
 
-/*.myForm{
+.myForm{
     width: 90%;
     margin: auto;
     margin-top: 10%;
-    border: 1px solid #ddd; 
     text-align: center;
-} 
-*/
+}
 
-.myForm{
-    clear: both;
-   
+.subbutton{
+    width: 200px;
+    padding: 17px;
+    margin-top: 7%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+    font-size: 12px;
 }
 
 
-/*  
- #myForm input, textarea{
-    width: 80%;
-    padding: 10px;
-    background-color: #000;
-    
-} 
-*/
-
 /* end form */
-
 
 
 .container h1{
@@ -251,7 +236,7 @@ input[type="text"]
     margin-bottom: 60px;
     font-weight: 600;
     position: relative;
-    }
+}
 
 .container h1::after{
     content: '';
@@ -264,11 +249,22 @@ input[type="text"]
     transform: translateX(-50%);
 }
 
+.container h1,h2{
+    color: white;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    padding: 0 10%;
+}
+
 .row{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     grid-gap: 70px;
-    
 }
 
 .service{
@@ -276,8 +272,6 @@ input[type="text"]
     font-size: 1em;
     cursor: pointer;
     transition: transform 0.5s, background 0.5s;
-    
-    
 }
 
 .service img{
@@ -314,7 +308,7 @@ input[type="text"]
 /* --------------------------------------------------------------------- */
 
 
-@media (max-width: 858px) and (max-width: 952px) {
+@media (max-width: 858px) and (max-width: 952px) and (min-width: 375px){
 
     .logo{
         /* font-size: 30px; */
@@ -394,10 +388,91 @@ input[type="text"]
         cursor: pointer;
         position: relative;
         overflow: hidden;
-        z-index: 1;
+        z-index: 0;
     }
     
     .center {
         display: none;
     }
+
+    
+    .myForm h1{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+    .myForm h1 + span{
+        text-transform:capitalize;
+    }
+    
+    .myForm .firstname {
+        /* border: 1px solid cornflowerblue; */
+        margin-top: 10%;
+    }
+    
+    .subbutton{
+        width: 165px;
+        padding: 10px;
+        margin-top: 20% 0;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid red;
+        background: transparent;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .container h1,h2{
+        color: white;
+    }
+    
+    
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        height: 90vh;
+        padding: 0 10%;
+    }    
+
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        grid-gap: 50px;
+    }
+    .service{
+        font-size: 1em;
+        cursor: pointer;
+        transition: transform 0.5s, background 0.5s;
+    }
+    
+    .service img{
+        width: 80px;
+        background:transparent;
+    }
+    
+    
+    
+    .service h2{
+        font-weight: 300;
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 15px;
+        
+        /* border: 1px solid red; */
+    }
+    
+    .service:hover{
+        color: #fff;
+        transform: scale(1.25);
+        
+    }
+
+    .closingwords h2{
+        font-size: .86em;
+        text-align: center;
+        font-weight: 700;
+    }
+    
 }
