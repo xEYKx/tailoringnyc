@@ -86,7 +86,7 @@
 
 /* --------------------------------------------------------------------- */
 
-@media (max-width: 858px) and (max-width: 952px)  {
+@media (min-width: 375px) and (max-width: 820px)  {
 
 .home .home-text p span{
 	font-size: 33px;
