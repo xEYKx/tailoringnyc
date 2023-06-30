@@ -310,7 +310,7 @@ input[type="text"],
 /* --------------------------------------------------------------------- */
 
 
-@media (min-width: 375px) and (max-width: 809px){
+@media (min-width: 375px) and (max-width: 810px){
 
     .checkbtn{
         font-size: 30px;
@@ -369,7 +369,7 @@ input[type="text"],
     .content button{
         width: 165px;
         padding: 10px;
-        margin-top: 15%;
+        margin-top: 30%;
         /* margin: 90px 10px; */
         text-align: center;
         /* border-radius: 25px; */
