@@ -90,22 +90,21 @@
 
 .home .home-text p span{
 	font-size: 33px;
-	color:blue;
+	color:red;
 	font-weight: 700;
 	/* display: inline-block; */
-	line-height: 2px;
+	line-height: 30px;
 	display: none;
 }
 
-  /* .animate-text{
-	font-size: 33px;
-	border: 1px blue;
-	font-weight: 700;
-	display: inline-block;
-	line-height: 40px;
-	display: none;
-}	 */
-
+ .animate-text{
+	/* font-size: 33px; */
+	border: 1px red;
+	/* font-weight: 700; */
+	/* display: inline-block; */
+	/* line-height: 40px; */
+	/* display: none; */
+}	 
 }
 
 
