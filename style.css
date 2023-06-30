@@ -310,7 +310,7 @@ input[type="text"],
 /* --------------------------------------------------------------------- */
 
 /* pad start ---------------------------------------------------------*/
-@media (min-width: 813px) and (max-width: 1080px){
+@media (min-width: 810px) and (max-width: 1080px){
     .checkbtn{
         font-size: 30px;
         display: block; 
@@ -342,12 +342,12 @@ input[type="text"],
     .navbar ul li::after{
         background-color: red;
         position: absolute;
-        left: 40%;
+        left: 20%;
         bottom: -5px;
         transition: 0.5s;
     }
     .navbar ul li:hover::after{
-        width:  20%;
+        width:  10%;
     }
     .content h1{
         font-size: 33px;
@@ -356,12 +356,11 @@ input[type="text"],
         width: 165px;
         padding: 10px;
         margin-top: 10%;
-        /* margin: 90px 10px; */
         text-align: center;
-        /* border-radius: 25px; */
+        border-radius: 25px;
         font-weight: bold;
-        border: 2px solid blue;
-        background: transparent;
+        border: 2px solid red;
+        /* background: transparent; */
         cursor: pointer;
         position: relative;
         overflow: hidden;
@@ -378,7 +377,7 @@ input[type="text"],
         text-transform:capitalize;
     }
     .myForm .firstname {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .subbutton{
         width: 165px;
@@ -437,7 +436,7 @@ input[type="text"],
 
 
 /* start phone ------------------------------------------------------*/ 
-    @media (min-width: 375px) and (max-width: 812px){
+    @media (min-width: 375px) and (max-width: 809px){
 
     .checkbtn{
         font-size: 30px;
