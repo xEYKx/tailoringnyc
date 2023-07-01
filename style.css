@@ -355,7 +355,7 @@ input[type="text"],
     .content button{
         width: 165px;
         padding: 10px;
-        margin-top: 10%;
+        margin-top: 0;
         text-align: center;
         border-radius: 25px;
         font-weight: bold;
@@ -434,9 +434,8 @@ input[type="text"],
 }
 /* pad end -----------------------------------------------------------*/
 
-
 /* start phone ------------------------------------------------------*/ 
- /*   @media (max-width: 809px){
+    @media (max-width: 819px){
 
     .checkbtn{
         font-size: 30px;
@@ -490,10 +489,10 @@ input[type="text"],
     .content button{
         width: 165px;
         padding: 10px;
-        margin-top: 30%;
+        margin-top: 19%;
         text-align: center;
         font-weight: bold;
-        border: 2px solid red;
+        border: 2px solid green;
         background: transparent;
         cursor: pointer;
         position: relative;
@@ -578,5 +577,5 @@ input[type="text"],
         font-weight: 700;
     }
     
-} */
+} 
 /* start end ------------------------------------------------------
