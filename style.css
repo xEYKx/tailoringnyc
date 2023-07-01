@@ -342,7 +342,7 @@ input[type="text"],
     .navbar ul li::after{
         background-color: red;
         position: absolute;
-        left: 20%;
+        left: 45%;
         bottom: -5px;
         transition: 0.5s;
     }
