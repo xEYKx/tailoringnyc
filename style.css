@@ -310,7 +310,7 @@ input[type="text"],
 /* --------------------------------------------------------------------- */
 
 /* pad start ---------------------------------------------------------*/
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width: 819px){
     .checkbtn{
         font-size: 30px;
         display: block; 
@@ -433,4 +433,154 @@ input[type="text"],
     
 }
 /* pad end -----------------------------------------------------------*/
+
+
+/* start phone ------------------------------------------------------*/ 
+/*
+@media (mix-width: 819px){
+
+    .checkbtn{
+        font-size: 30px;
+        display: block; 
+        margin-top: -auto;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 90px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        background: black;
+        opacity: 0.95;
+        z-index: 2;
+    }
+
+    .nav1 ul li{
+        display: block;
+        margin:  50px 0;
+        line-height: 30px;
+    }
+ 
+    .navbar a:hover,.navbar a.active{
+        background: none;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .navbar ul li::after{
+        background-color: red;
+        position: absolute;
+        left: 40%;
+        bottom: -5px;
+        transition: 0.5s;
+    }
+    
+    .navbar ul li:hover::after{
+        width:  20%;
+    }
+
+    .content h1{
+        font-size: 33px;
+    }
+
+    .content button{
+        width: 165px;
+        padding: 10px;
+        margin-top: 19%;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid red;
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+    }
+    
+    .center {
+        display: none;
+    }
+    
+    .myForm h1{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+    .myForm h1 + span{
+        text-transform:capitalize;
+    }
+    
+    .myForm .firstname {
+        margin-top: 10%;
+    }
+    
+    .subbutton{
+        width: 165px;
+        padding: 10px;
+        margin-top: 20%;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid red;
+        background: transparent;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .container h1,h2{
+        color: white;
+    }
+    
+    
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        height: 50vh;
+        padding: 0 10%;
+    }    
+
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        grid-gap: 50px;
+    }
+    .service{
+        font-size: 1em;
+        cursor: pointer;
+        transition: transform 0.5s, background 0.5s;
+    }
+    
+    .service img{
+        width: 80px;
+        background:transparent;
+    }
+       
+    .service h2{
+        font-weight: 300;
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .service:hover{
+        color: #fff;
+        transform: scale(1.25);
+    }
+
+    .closingwords h2{
+        font-size: .86em;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+}
+*/
+
+/* start end ------------------------------------------------------
 
