@@ -310,7 +310,7 @@ input[type="text"],
 /* --------------------------------------------------------------------- */
 
 /* pad start ---------------------------------------------------------*/
-@media (max-width: 2048px)and (min-width: 819px){
+@media (min-width: 819px) and (max-width: 2048px){
     .checkbtn{
         font-size: 30px;
         display: block; 
