@@ -180,8 +180,19 @@ body{
     line-height: 3em;
     margin: 10% ;
     /* border: solid purple; */
-    
 }
+
+.centers {
+    font-size: 1.25em;;
+    color:white;
+    text-transform: uppercase; 
+    text-align: center;
+    line-height: 3em;
+    margin: 0% 8%;
+    /* max-width: 60%; */
+    /* border: solid purple; */
+}
+
 
 .center a{
     font-size: 1em;
@@ -342,7 +353,7 @@ input[type="text"],
     .navbar ul li::after{
         background-color: red;
         position: absolute;
-        left: 45%;
+        left: 4%;
         bottom: -5px;
         transition: 0.5s;
     }
