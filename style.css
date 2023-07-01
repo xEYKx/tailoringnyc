@@ -314,7 +314,7 @@ input[type="text"],
     .checkbtn{
         font-size: 30px;
         display: block; 
-        margin-top: -auto;
+        /* margin-top: 100%; */
     }
     ul{
         position: fixed;
