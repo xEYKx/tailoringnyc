@@ -127,11 +127,11 @@
 }
 
 
-@media (max-width: 812px)  {
+@media (max-width: 810px)  {
 
 	.home .home-text p span{
 		font-size: 33px;
-		color:green;
+		color:yellow;
 		font-weight: 700;
 		line-height: 40px;
 		display: none;
