@@ -450,7 +450,8 @@ input[type="text"],
 
     #tableBody{
         margin: 9% 5%;
-        line-height: 45px;
+        line-height: 55px;
+        font-size: 16px;
     }
     #tableBody h2{
         margin: 0 5% 0 0;
