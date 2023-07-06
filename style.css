@@ -447,7 +447,14 @@ input[type="text"],
         text-align: center;
         font-weight: 700;
     }
-    
+
+    #tableBody{
+        margin: 9% 5%;
+        line-height: 45px;
+    }
+    #tableBody h2{
+        margin: 0 5% 0 0;
+            
 }
 /* pad end -----------------------------------------------------------*/
 
