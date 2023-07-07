@@ -38,6 +38,7 @@ for (let i = 0; i < sections.length; i++) {
   generateTableSection(section.sectionName, section.products);
 }
 
+
 // function generateTableRow(data) {
 //     const parentElement = document.getElementById("tableBody");
 //     // Create table row element
