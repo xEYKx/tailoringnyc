@@ -7,10 +7,10 @@ const lName = document.querySelector('#lname');
 const eMail = document.querySelector('#email');
 const pNumber = document.querySelector('#phone');
 
-fName.value = "Fulan";
-lName.value = "eFulan";
-eMail.value = "leemajiors+0@gmail.com";
-pNumber.value = '212-555-5555';
+// fName.value = "Fulan";
+// lName.value = "eFulan";
+// eMail.value = "leemajiors+0@gmail.com";
+// pNumber.value = '212-555-5555';
 // dateTime.value = new Date().toLocaleString();
 
 

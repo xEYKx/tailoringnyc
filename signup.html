@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup.css">
+
+    <title>Tailoring NYC</title>
+</head>
+<body>
+     
+    <div class="banner">
+        <div class="navbar nav1">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars burger"></i>
+            </label>
+            <!-- <img src="logo.png" class="logo"> -->
+            <a href="/index.html"><h2 class="logo">Tailoring NYC</h2></a>
+            <ul>
+                <li><a href="/index.html">home</a></li>
+                <li><a href="/pricing.html">Service & pricing</a></li>
+                <li><a href="/aboutus.html">About Us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><button type="button" id="signup"><a href="#">sign up<span class="signup_border"></span> </a></button></li>
+            </ul>
+          </div>
+
+<div class="container">
+    <div class="form-box">
+        <h1 id="title">Sign up</h1>
+        <form>
+            <div class="input-group">
+                <div class="input-field" id="nameField">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" placeholder="Name">     
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Email">     
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password">     
+                </div>
+
+                <p>Lost password? &nbsp;&nbsp; <a href="#">   Click here!</a></p>
+            </div>
+            <div class="btn-field">
+                <button type="button" id="signupBtn">Sign up</button>
+                <button type="button" id="signinBtn" class="disable">Sign in</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+
+let signupBtn = document.getElementById('signupBtn');
+let signinBtn = document.getElementById('signinBtn');
+let nameField = document.getElementById('nameField');
+let title  = document.getElementById('title');
+
+signinBtn.onclick = function(){
+    nameField.style.maxHeight = "0";
+    title.innerHTML ="Sign In";
+    signupBtn.classList.add("disable")
+    signinBtn.classList.remove("disable")
+}
+
+signupBtn.onclick = function(){
+    nameField.style.maxHeight = "60px";
+    title.innerHTML ="Sign Up";
+    signupBtn.classList.remove("disable")
+    signinBtn.classList.add("disable")
+}
+</script>     
+</body>
+</html>
