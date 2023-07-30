@@ -90,16 +90,17 @@
     filter: brightness(1) grayscale(0);
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
     .main .grid-wrapper{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 }
 
-@media only screen and (max-width: 425px){
+@media (max-width: 300px){
     .main .grid-wrapper{
         display: block;
+    
         
     }
     .main .grid-wrapper .img{
@@ -111,7 +112,7 @@
 
     .main .grid-wrapper .img img{
         display: block;
-       filter: brightness(1) grayscale(0);
+       /* filter: brightness(1) grayscale(0); */
     }
 }
 
