@@ -249,6 +249,8 @@ body{
     position: relative;
     overflow: hidden;
     z-index: 1;
+    /* display: none; */
+
 }
 
 .content button:hover span{
@@ -450,6 +452,20 @@ input[type="text"],
 }
 /* --------------------------------------------------------------------- */
 
+
+
+@media (min-width: 700px){
+
+.hbtn {
+    display: none;
+}
+
+.center{
+    margin-top: 20%;
+    /* border: 1px red solid; */
+}
+    }
+
 /* pad start ---------------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 819px){
     .checkbtn{
@@ -491,7 +507,7 @@ input[type="text"],
         width:  10%;
     }
     .content h1{
-        font-size: 25px;
+        font-size: 33px;
     }
     .content button{
         width: 165px;
