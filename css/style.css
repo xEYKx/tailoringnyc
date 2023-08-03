@@ -42,6 +42,7 @@ body{
     align-items: center;
     display: flex;
     margin: auto;
+    /* border: solid red 2px; */
 }
 
  .navbar ul{
@@ -332,12 +333,13 @@ label{
     font-size: 1em;
     width: auto;
     
+    
 }
 input[type="text"],
-     [type="tel"]
- {
+[type="tel"]
+{
     color: black;
-    width: auto;
+    width: 40%;
     padding: 10px;
     font-size: 12px;
     /* background-color: #333; */
@@ -485,6 +487,12 @@ input[type="text"],
         opacity: 0.95;
         z-index: 1;
     }
+
+    .navbar{
+        margin-top: 10%;
+    }
+    
+    
     .nav1 ul li{
         display: block;
         margin:  50px 0;
@@ -531,20 +539,6 @@ input[type="text"],
         bottom: -2px;
         transition: 1s;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .content h1{
         font-size: 33px;
     }
@@ -565,20 +559,40 @@ input[type="text"],
     .center {
         display: none;
     }
-    .myForm h1{
-        font-size: 16px;
-        margin: 10px 0;
+    
+    .myForm{
+        margin-top: 45%;
     }
-    .myForm h1 + span{
-        text-transform:capitalize;
-    }
-    .myForm .firstname {
-        margin-top: 5%;
-    }
-    .subbutton{
+    
+    input[type="text"],
+[type="tel"]
+{
+    color: black;
+    width: 90%;
+    padding: 10px;
+    font-size: 12px;
+    /* background-color: #333; */
+    /* background-color: ghostwhite; */
+    
+}
+
+
+.myForm h1{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.myForm h1 + span{
+    text-transform:capitalize;
+}
+.myForm label {
+    font-size: 1.5em;
+    margin: 3% 0;
+    /* border: 2px solid aqua; */
+}
+.subbutton{
         width: 165px;
         padding: 10px;
-        margin-top: 20% 0;
+        margin: 10% 0 50% 0;
         border-radius: 25px;
         font-weight: bold;
         border: 2px solid red;
@@ -586,9 +600,17 @@ input[type="text"],
         cursor: pointer;
         font-size: 12px;
     }
+    
+    
+    .container h1{
+        margin-bottom: 20%;
+        color: white;
+    }
+    
     .container h1,h2{
         color: white;
     }
+    
     .container{
         margin: 0 auto;
         width: 100%;
