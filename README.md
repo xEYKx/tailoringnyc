@@ -1,9 +1,6 @@
 # tailoringnyc
 I am recreating a website for a brand/company that I used to co-own with a business partner. 
 
-
-**Link to project:** https://cheery-elf-101e0e.netlify.app/
-
 ![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
