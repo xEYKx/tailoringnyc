@@ -1,8 +1,6 @@
 # tailoringnyc
 I am recreating a website for a brand/company that I used to co-own with a business partner. 
 
-![alt tag](http://placecorgi.com/1200/650)
-
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Framework of choice
